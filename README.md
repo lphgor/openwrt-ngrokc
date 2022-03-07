@@ -1,5 +1,5 @@
 [openwrt-ngrokc][1]  
-[luci-app-ngrokc][2] 
+[luci-app-ngrokc][2]  
 [shadowsocks-rust][3]
 
 [1]: https://github.com/AlexZhuo/openwrt-ngrokc
