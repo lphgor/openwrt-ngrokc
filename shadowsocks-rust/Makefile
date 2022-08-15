@@ -14,14 +14,6 @@ PKG_SOURCE_BODY:=unknown-linux-musl
 PKG_SOURCE_FOOTER:=tar.xz
 PKG_SOURCE_URL:=https://github.com/shadowsocks/shadowsocks-rust/releases/download/v$(PKG_VERSION)/
 
-52a1da389148767e1d105232ccd3f3ab64e38169ef4c5cb2281fff388004856d  shadowsocks-v1.15.0-alpha.8.aarch64-unknown-linux-musl.tar.xz
-78dd75be5417fe5980ceb4a3df0107bf326ff67d52b9b992ae5c1fa53fcd1ff0  shadowsocks-v1.15.0-alpha.8.arm-unknown-linux-musleabi.tar.xz
-45159e87d18f6d831625a32aae4db1dc3e711c37a00da35f4110d0377391bd05  shadowsocks-v1.15.0-alpha.8.arm-unknown-linux-musleabihf.tar.xz
-fe8aa1f8cde55f4e98b1990ed9988bcc1170129fbb7dae7abd293735975f9069  shadowsocks-v1.15.0-alpha.8.i686-unknown-linux-musl.tar.xz
-48f9a3cad7081ccc2dd2aa6af5e5861672d5b49e7f5d9f049cfac572668a37f8  shadowsocks-v1.15.0-alpha.8.mips-unknown-linux-musl.tar.xz
-d7a0d688098e86bfaefab2c0eabcbe65792ab9cdb4447b5101781df61b13f091  shadowsocks-v1.15.0-alpha.8.mipsel-unknown-linux-musl.tar.xz
-9d2c62e8e047596139ee5f54bac74bb8bf2d6bc7af43a34ba884e0193dcabf08  shadowsocks-v1.15.0-alpha.8.x86_64-unknown-linux-musl.tar.xz
-
 ifeq ($(ARCH),aarch64)
   PKG_SOURCE:=$(PKG_SOURCE_HEADER).aarch64-$(PKG_SOURCE_BODY).$(PKG_SOURCE_FOOTER)
   PKG_HASH:=52a1da389148767e1d105232ccd3f3ab64e38169ef4c5cb2281fff388004856d
